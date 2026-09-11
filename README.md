@@ -10,6 +10,14 @@ I build reproducible AI/ML systems with clear evidence boundaries: code that run
 - [**MedSeg U-Net**](https://github.com/Jdawgboo/medseg-unet) — binary segmentation U-Net foundation with image/mask pairing invariants, contribution guides, and synthetic-only CI validation.
 - [**IoT Mesh Resilience Simulator**](https://github.com/Jdawgboo/iot-mesh-resilience) — deterministic mesh-routing simulator with route selection, link failures, rerouting tests, and machine-readable evidence artifacts.
 
+## Practical utilities
+
+- [**Dataset Split Auditor**](https://github.com/Jdawgboo/dataset-split-auditor) — CLI checks for record, group, and fingerprint leakage before ML training.
+- [**Experiment Card**](https://github.com/Jdawgboo/experiment-card) — validated Markdown experiment cards that preserve evidence scope and limitations.
+- [**Agent Output Gate**](https://github.com/Jdawgboo/agent-output-gate) — local validation of structured agent output, citations, confidence, and policy requirements.
+- [**Tool Contract Kit**](https://github.com/Jdawgboo/tool-contract-kit) — typed TypeScript contracts for safe JSON tool invocation validation.
+- [**MQTT Payload Guard**](https://github.com/Jdawgboo/mqtt-payload-guard) — JSON telemetry contract validation for MQTT ingestion paths.
+
 ## Engineering principles
 
 - Reproducibility before benchmark claims
