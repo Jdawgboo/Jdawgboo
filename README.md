@@ -1,16 +1,23 @@
-## Hi there 👋
+# AI/ML Engineer — Deep Learning, Agentic Systems & IoT
 
-<!--
-**Jdawgboo/Jdawgboo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build reproducible AI/ML systems with clear evidence boundaries: code that runs, tests that verify behavior, and documentation that distinguishes a pipeline demonstration from a real-world result.
 
-Here are some ideas to get you started:
+## Featured work
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [**Agentic Report Compiler**](https://github.com/Jdawgboo/agentic-report-compiler) — deterministic, tool-routing research agent with local retrieval, citation validation, evidence gaps, and an auditable run manifest.
+- [**Bearing Fault CNN**](https://github.com/Jdawgboo/bearing-fault-cnn) — 1D CNN pipeline for vibration-window classification with recording-level split safeguards and a CWRU-oriented data protocol.
+- [**Traffic Violation ViT**](https://github.com/Jdawgboo/traffic-violation-vit) — compact Vision Transformer training pipeline with source-ID split controls and reproducible artifacts.
+- [**MedSeg U-Net**](https://github.com/Jdawgboo/medseg-unet) — binary segmentation U-Net foundation with image/mask pairing invariants, contribution guides, and synthetic-only CI validation.
+
+## Engineering principles
+
+- Reproducibility before benchmark claims
+- Data-leakage and provenance controls as first-class requirements
+- Model evaluation that names its data source, split, seed, and limitations
+- Clear extension points for contributors and reviewers
+
+## Current focus
+
+Building practical AI systems across agent workflows, computer vision, time-series ML, medical imaging, and IoT-oriented sensing.
+
+> I do not publish synthetic smoke-test results as real benchmark performance. Every real-data claim should be reproducible from its documented artifacts.
