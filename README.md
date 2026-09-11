@@ -8,6 +8,7 @@ I build reproducible AI/ML systems with clear evidence boundaries: code that run
 - [**Bearing Fault CNN**](https://github.com/Jdawgboo/bearing-fault-cnn) — 1D CNN pipeline for vibration-window classification with recording-level split safeguards and a CWRU-oriented data protocol.
 - [**Traffic Violation ViT**](https://github.com/Jdawgboo/traffic-violation-vit) — compact Vision Transformer training pipeline with source-ID split controls and reproducible artifacts.
 - [**MedSeg U-Net**](https://github.com/Jdawgboo/medseg-unet) — binary segmentation U-Net foundation with image/mask pairing invariants, contribution guides, and synthetic-only CI validation.
+- [**IoT Mesh Resilience Simulator**](https://github.com/Jdawgboo/iot-mesh-resilience) — deterministic mesh-routing simulator with route selection, link failures, rerouting tests, and machine-readable evidence artifacts.
 
 ## Engineering principles
 
