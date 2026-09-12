@@ -31,6 +31,30 @@ I build reproducible AI/ML systems with clear evidence boundaries: code that run
 - [**Annotation Agreement Kit**](https://github.com/Jdawgboo/annotation-agreement-kit) — two-rater agreement, Cohen's kappa, and disagreement-index diagnostics.
 - [**Inference Cost Ledger**](https://github.com/Jdawgboo/inference-cost-ledger) — local aggregation of model usage and estimated cost from owner-supplied pricing.
 
+## Standalone tool suite
+
+Every project below is a small, dependency-free Python utility with source code, unit tests, a Python 3.10/3.12 GitHub Actions matrix, MIT license, and focused documentation. They run locally and do not call external application infrastructure.
+
+### Data quality and lineage
+
+[CSV Schema Sentinel](https://github.com/Jdawgboo/csv-schema-sentinel) · [Tabular Missingness Profiler](https://github.com/Jdawgboo/tabular-missingness-profiler) · [Data Drift Window](https://github.com/Jdawgboo/data-drift-window) · [Duplicate Record Finder](https://github.com/Jdawgboo/duplicate-record-finder) · [Dataset Lineage Manifest](https://github.com/Jdawgboo/dataset-lineage-manifest) · [Data Quality Scorecard](https://github.com/Jdawgboo/data-quality-scorecard) · [Stream Window Stats](https://github.com/Jdawgboo/stream-window-stats) · [Data Contract Checker](https://github.com/Jdawgboo/data-contract-checker)
+
+### ML evaluation and model operations
+
+[Classification Metrics Workbench](https://github.com/Jdawgboo/classification-metrics-workbench) · [Calibration Curve Kit](https://github.com/Jdawgboo/calibration-curve-kit) · [Threshold Policy Engine](https://github.com/Jdawgboo/threshold-policy-engine) · [Training Run Comparator](https://github.com/Jdawgboo/training-run-comparator) · [Label Noise Estimator](https://github.com/Jdawgboo/label-noise-estimator) · [Feature Importance Checker](https://github.com/Jdawgboo/feature-importance-checker) · [Model Version Compare](https://github.com/Jdawgboo/model-version-compare) · [ML Slice Evaluator](https://github.com/Jdawgboo/ml-slice-evaluator)
+
+### AI workflow quality tools
+
+[RAG Citation Checker](https://github.com/Jdawgboo/rag-citation-checker) · [Context Window Budgeter](https://github.com/Jdawgboo/context-window-budgeter) · [Prompt Template Linter](https://github.com/Jdawgboo/prompt-template-linter) · [Tool Call Sanitizer](https://github.com/Jdawgboo/tool-call-sanitizer) · [Embedding Batch Planner](https://github.com/Jdawgboo/embedding-batch-planner) · [Semantic Cache Key](https://github.com/Jdawgboo/semantic-cache-key) · [LLM Retry Policy](https://github.com/Jdawgboo/llm-retry-policy) · [Response Shape Diff](https://github.com/Jdawgboo/response-shape-diff)
+
+### IoT operations utilities
+
+[Sensor Outlier Guard](https://github.com/Jdawgboo/sensor-outlier-guard) · [Telemetry Retention Planner](https://github.com/Jdawgboo/telemetry-retention-planner) · [MQTT Topic Policy](https://github.com/Jdawgboo/mqtt-topic-policy) · [Device Fleet Inventory](https://github.com/Jdawgboo/device-fleet-inventory) · [Edge Alert Router](https://github.com/Jdawgboo/edge-alert-router) · [Protocol Frame Checker](https://github.com/Jdawgboo/protocol-frame-checker) · [Gateway Heartbeat Monitor](https://github.com/Jdawgboo/gateway-heartbeat-monitor) · [IoT Battery Forecaster](https://github.com/Jdawgboo/iot-battery-forecaster)
+
+### Developer workflow and governance
+
+[Env File Policy Check](https://github.com/Jdawgboo/env-file-policy-check) · [Changelog Fragment Checker](https://github.com/Jdawgboo/changelog-fragment-checker) · [Release Version Guard](https://github.com/Jdawgboo/release-version-guard) · [API Contract Diff](https://github.com/Jdawgboo/api-contract-diff) · [JSON Schema Sample Gen](https://github.com/Jdawgboo/json-schema-sample-gen) · [CI Matrix Validator](https://github.com/Jdawgboo/ci-matrix-validator) · [Log Redaction Checker](https://github.com/Jdawgboo/log-redaction-checker) · [Dependency License Checker](https://github.com/Jdawgboo/dependency-license-checker)
+
 ## Engineering principles
 
 - Reproducibility before benchmark claims
